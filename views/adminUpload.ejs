@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Site Title -->
+    <title>APEZ - Responsive Multi-Purpose HTML5 Template</title>
+    <!-- Meta Description Tag -->
+    <meta name="Description" content="APEZ - Responsive Multi-Purpose HTML5 Template">
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <!-- Material Design Lite Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/material/material.min.css" />
+    <!-- Material Design Select Field Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/material/mdl-selectfield.min.css">
+    <!-- Animteheading Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/animateheading/animateheading.min.css" />
+    <!-- Owl Carousel Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/owl_carousel/owl.carousel.min.css" />
+    <!-- Animate Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/animate/animate.min.css" />
+    <!-- Magnific Popup Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/magnific_popup/magnific-popup.min.css" />
+    <!-- Flex Slider Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/flexslider/flexslider.min.css" />
+    <!-- Custom Main Stylesheet CSS -->
+    <link rel="stylesheet" href="/dist/css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Start team Section -->
+        <div class="light-background">
+            <div class="layer-tablet">
+                <div class="layer-wrapper pb-0">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-0"></div>
+                        <div class="col-lg-6 col-sm-12">
+                    <div class="panel panel-default mt-4">
+                        <div class="panel-body text-center">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3>Upload Details</h3>
+                                    <% if(err || succ){ %>
+                                    <div id="charge-error" class="alert alert-<% if(err){ %>danger<% }else if(succ){ %>success<% } %>">
+                                        <% if(err){ %>
+                                        <%=err%>
+                                        <% }else if(succ){ %>
+                                        <%=succ%>
+                                        <% } %>
+                                    </div>
+                                    <% } %>
+    <form action="/adminUpload" method="post" id="cardvalid-form" enctype="multipart/form-data">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label form-input">
+        <input class="mdl-textfield__input" type="text" id="exhibit_name" name="exhibit_name" required="true">
+        <label class="mdl-textfield__label" for="exhibit_name">Name of the Exhibit</label>
+    </div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label form-input">
+        <input class="mdl-textfield__input" type="text" id="admin_code" name="admin_code" required="true">
+        <label class="mdl-textfield__label" for="admin_code">Admin Code</label>
+    </div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label form-input">
+        <input class="file-input" type="file" accept="image/*" id="frmPic" name="frmPic" required="true">
+        <label>Click on "Choose File" to take/upload a picture</label>
+    </div>
+    <div>                                                                  
+        <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+    </form>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End team Section -->
+        
+    </div>
+    <!-- **********Included Scripts*********** -->
+
+    <!-- Jquery Library 2.1 JavaScript-->
+    <script src="/assets/plugin/jquery/jquery-2.1.4.min.js"></script>
+    <!-- Popper JavaScript-->
+    <script src="/assets/plugin/popper/popper.min.js"></script>
+    <!-- Bootstrap Core JavaScript-->
+    <script src="/assets/plugin/bootstrap/bootstrap.min.js"></script>
+    <!-- Modernizr Core JavaScript-->
+    <script src="/assets/plugin/modernizr/modernizr.js"></script>
+    <!-- Animaateheading JavaScript-->
+    <script src="/assets/plugin/animateheading/animateheading.js"></script>
+    <!-- Material Design Lite JavaScript-->
+    <script src="/assets/plugin/material/material.min.js"></script>
+    <!-- Material Select Field Script -->
+    <script src="/assets/plugin/material/mdl-selectfield.min.js"></script>
+    <!-- Flexslider Plugin JavaScript-->
+    <script src="/assets/plugin/flexslider/jquery.flexslider.min.js"></script>
+    <!-- Owl Carousel Plugin JavaScript-->
+    <script src="/assets/plugin/owl_carousel/owl.carousel.min.js"></script>
+    <!-- Scrolltofixed Plugin JavaScript-->
+    <script src="/assets/plugin/scrolltofixed/jquery-scrolltofixed.min.js"></script>
+    <!-- Magnific Popup Plugin JavaScript-->
+    <script src="/assets/plugin/magnific_popup/jquery.magnific-popup.min.js"></script>
+    <!-- WayPoint Plugin JavaScript-->
+    <script src="/assets/plugin/waypoints/jquery.waypoints.min.js"></script>
+    <!-- CounterUp Plugin JavaScript-->
+    <script src="/assets/plugin/counterup/jquery.counterup.js"></script>
+    <!-- masonry Plugin JavaScript-->
+    <script src="/assets/plugin/masonry_pkgd/masonry.pkgd.min.js"></script>
+    <!-- SmoothScroll Plugin JavaScript-->
+    <script src="/assets/plugin/smoothscroll/smoothscroll.min.js"></script>
+    <!--Custom JavaScript-->
+    <script src="/dist/js/custom.js"></script>
+
+</body>
+</html>

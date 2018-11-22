@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Site Title -->
+    <title>APEZ - Responsive Multi-Purpose HTML5 Template</title>
+    <!-- Meta Description Tag -->
+    <meta name="Description" content="APEZ - Responsive Multi-Purpose HTML5 Template">
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <!-- Material Design Lite Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/material/material.min.css" />
+    <!-- Material Design Select Field Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/material/mdl-selectfield.min.css">
+    <!-- Animteheading Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/animateheading/animateheading.min.css" />
+    <!-- Owl Carousel Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/owl_carousel/owl.carousel.min.css" />
+    <!-- Animate Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/animate/animate.min.css" />
+    <!-- Magnific Popup Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/magnific_popup/magnific-popup.min.css" />
+    <!-- Flex Slider Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/flexslider/flexslider.min.css" />
+    <!-- Custom Main Stylesheet CSS -->
+    <link rel="stylesheet" href="/dist/css/style.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.2/css/all.css' integrity='sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns' crossorigin='anonymous'>
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Start team Section -->
+        <div class="light-background">
+            <div class="layer-tablet">
+                <div class="layer-wrapper pb-0">
+                        <div class="col-12">
+                            <div class="panel panel-default">
+                                <div class="panel-head">
+                                    <div class="panel-title">Click on the exhibit that you like over the other.</div>
+                                </div>
+                                <div class="panel-wrapper">
+                                    <div class="panel-body">
+                                        <div class="card-deck">
+                                            <div class="card">
+                                                <a href="/i/<%=user.id%>">
+                                                    <img class="card-img-top" src="<%= user.order[user.i].url %>" alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title"><%= user.order[user.i].name %></h4>
+                                                    </div>                                                    
+                                                </a>
+                                            </div>
+                                                <div class="text-center" style="margin-top: 50px; margin-bottom: 30px;">
+                                                <a href="/ij/<%=user.id%>">
+                                                    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent button button-primary contact-submit"><i class='fas fa-equals'></i></button>
+                                                </a>                                           
+                                            </div>
+                                            
+                                            <div class="card">
+                                                <a href="/j/<%=user.id%>">
+                                                    <img class="card-img-top" src="<%= user.order[user.j].url %>" alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title"><%= user.order[user.j].name %></h4>
+                                                    </div>                                                    
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div><!-- End team Section -->
+        
+    </div>
+    <!-- **********Included Scripts*********** -->
+
+    <!-- Jquery Library 2.1 JavaScript-->
+    <script src="/assets/plugin/jquery/jquery-2.1.4.min.js"></script>
+    <!-- Popper JavaScript-->
+    <script src="/assets/plugin/popper/popper.min.js"></script>
+    <!-- Bootstrap Core JavaScript-->
+    <script src="/assets/plugin/bootstrap/bootstrap.min.js"></script>
+    <!-- Modernizr Core JavaScript-->
+    <script src="/assets/plugin/modernizr/modernizr.js"></script>
+    <!-- Animaateheading JavaScript-->
+    <script src="/assets/plugin/animateheading/animateheading.js"></script>
+    <!-- Material Design Lite JavaScript-->
+    <script src="/assets/plugin/material/material.min.js"></script>
+    <!-- Material Select Field Script -->
+    <script src="/assets/plugin/material/mdl-selectfield.min.js"></script>
+    <!-- Flexslider Plugin JavaScript-->
+    <script src="/assets/plugin/flexslider/jquery.flexslider.min.js"></script>
+    <!-- Owl Carousel Plugin JavaScript-->
+    <script src="/assets/plugin/owl_carousel/owl.carousel.min.js"></script>
+    <!-- Scrolltofixed Plugin JavaScript-->
+    <script src="/assets/plugin/scrolltofixed/jquery-scrolltofixed.min.js"></script>
+    <!-- Magnific Popup Plugin JavaScript-->
+    <script src="/assets/plugin/magnific_popup/jquery.magnific-popup.min.js"></script>
+    <!-- WayPoint Plugin JavaScript-->
+    <script src="/assets/plugin/waypoints/jquery.waypoints.min.js"></script>
+    <!-- CounterUp Plugin JavaScript-->
+    <script src="/assets/plugin/counterup/jquery.counterup.js"></script>
+    <!-- masonry Plugin JavaScript-->
+    <script src="/assets/plugin/masonry_pkgd/masonry.pkgd.min.js"></script>
+    <!-- SmoothScroll Plugin JavaScript-->
+    <script src="/assets/plugin/smoothscroll/smoothscroll.min.js"></script>
+    <!--Custom JavaScript-->
+    <script src="/dist/js/custom.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Site Title -->
+    <title>APEZ - Responsive Multi-Purpose HTML5 Template</title>
+    <!-- Meta Description Tag -->
+    <meta name="Description" content="APEZ - Responsive Multi-Purpose HTML5 Template">
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <!-- Material Design Lite Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/material/material.min.css" />
+    <!-- Material Design Select Field Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/material/mdl-selectfield.min.css">
+    <!-- Animteheading Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/animateheading/animateheading.min.css" />
+    <!-- Owl Carousel Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/owl_carousel/owl.carousel.min.css" />
+    <!-- Animate Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/animate/animate.min.css" />
+    <!-- Magnific Popup Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/magnific_popup/magnific-popup.min.css" />
+    <!-- Flex Slider Stylesheet CSS -->
+    <link rel="stylesheet" href="/assets/plugin/flexslider/flexslider.min.css" />
+    <!-- Custom Main Stylesheet CSS -->
+    <link rel="stylesheet" href="/dist/css/style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <!-- Start Header Section -->
+        <header id="header" class="header-dark">
+            <div class="layer-stretch hdr">
+                <div class="tbl animated fadeInDown">
+                    <div class="tbl-row">
+                        <!-- Start Header Logo Section -->
+                        <div class="tbl-cell hdr-logo">
+                            <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        </div><!-- End Header Logo Section -->
+                        <div class="tbl-cell hdr-menu">
+                            <!-- Start Menu Section -->
+                            <ul class="menu">
+                                <li class="menu-megamenu-li">
+                                    <a href="/" class="mdl-button mdl-js-button mdl-js-ripple-effect">Home</a>
+                                </li>
+                                <li class="mobile-menu-close"><i class="fa fa-times"></i></li>
+                            </ul><!-- End Menu Section -->
+                            <div id="menu-bar"><a><i class="fa fa-bars"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header><!-- End Header Section -->
+        <!-- Start Page Title Section -->
+        <div class="page-ttl">
+            <div class="layer-stretch">
+                <div class="page-ttl-container">
+                    <h1>Ensignia<span class="text-primary"> 2018</span></h1>
+                    <p><a href="#">Prakriti</a> : <span>The Techno-Environmental Club of NIT Durgapur</span></p>
+                </div>
+            </div>
+        </div><!-- End of Page Title Section -->
+
+
+<!-- Start team Section -->
+        
+            <div class="light-background">
+                <div class="layer-tablet">
+                    <div class="layer-wrapper pb-0">
+                        <div class="col-md-12">
+                            <div class="panel">
+                                <div class="panel-head">
+                                    <h5 class="panel-title">Leaderboard</h5>
+                                </div>
+                                <div class="panel-body">
+                                    <table class="table table-striped text-center">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Exhibit</th>
+                                                <th>Score</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <%var i=0;exhibits.forEach(function(exhibit){ i++;%>
+                                            <tr>
+                                                <td><%=i%></td>
+                                                <td><%=exhibit.name%></td>
+                                                <td><%=Math.round(exhibit.rating)%></td>
+                                            </tr>
+                                            <% });%>                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- End team Section -->
+
+    
+        
+        <!-- Start Footer Section -->
+        <footer id="footer" class="footer-02">
+            <div class="layer-stretch">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt=""></a>
+                </div>
+                <!-- Start main Footer Section -->
+                <div>
+                    <ul class="footer-menu footer-menu-inline">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="pb-3">
+                    <ul class="social-list">
+                        <li>
+                            <a href="#" id="sample-facebook-2"><i class="fab fa-facebook"></i></a>
+                            <span class="mdl-tooltip mdl-tooltip--bottom" data-mdl-for="sample-facebook-2">Facebook</span>
+                        </li>
+                        <li>
+                            <a href="#" id="sample-twitter-2"><i class="fab fa-twitter"></i></a>
+                            <span class="mdl-tooltip mdl-tooltip--bottom" data-mdl-for="sample-twitter-2">Twitter</span>
+                        </li>
+                        <li>
+                            <a href="#" id="sample-google-2"><i class="fab fa-google"></i></a>
+                            <span class="mdl-tooltip mdl-tooltip--bottom" data-mdl-for="sample-google-2">Google</span>
+                        </li>
+                        <li>
+                            <a href="#" id="sample-instagram-2"><i class="fab fa-instagram"></i></a>
+                            <span class="mdl-tooltip mdl-tooltip--bottom" data-mdl-for="sample-instagram-2">Instagram
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#" id="sample-youtube-2"><i class="fab fa-youtube"></i></a>
+                            <span class="mdl-tooltip mdl-tooltip--bottom" data-mdl-for="sample-youtube-2">Youtube</span>
+                        </li>
+                        <li>
+                            <a href="#" id="sample-linkedin-2"><i class="fab fa-linkedin"></i></a>
+                            <span class="mdl-tooltip mdl-tooltip--bottom" data-mdl-for="sample-linkedin-2">Linkedin</span>
+                        </li>
+                        <li>
+                            <a href="#" id="sample-flickr-2"><i class="fab fa-flickr"></i></a>
+                            <span class="mdl-tooltip mdl-tooltip--bottom" data-mdl-for="sample-flickr-2">Flickr</span>
+                        </li>
+                        <li>
+                            <a href="#" id="sample-rss-2"><i class="fab fa-rss" ></i></a>
+                            <span class="mdl-tooltip mdl-tooltip--bottom" data-mdl-for="sample-rss-2">Rss</span>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- End main Footer Section -->
+            <!-- Start Copyright Section -->
+            <div id="copyright">
+                <div class="layer-stretch">
+                    <div class="paragraph-medium">2017 © Pepdev ALL RIGHTS RESERVED.</div>
+                </div>
+            </div><!-- End of Copyright Section -->
+        </footer><!-- End of Footer Section -->
+    </div>
+    <!-- **********Included Scripts*********** -->
+
+    <!-- Jquery Library 2.1 JavaScript-->
+    <script src="/assets/plugin/jquery/jquery-2.1.4.min.js"></script>
+    <!-- Popper JavaScript-->
+    <script src="/assets/plugin/popper/popper.min.js"></script>
+    <!-- Bootstrap Core JavaScript-->
+    <script src="/assets/plugin/bootstrap/bootstrap.min.js"></script>
+    <!-- Modernizr Core JavaScript-->
+    <script src="/assets/plugin/modernizr/modernizr.js"></script>
+    <!-- Animaateheading JavaScript-->
+    <script src="/assets/plugin/animateheading/animateheading.js"></script>
+    <!-- Material Design Lite JavaScript-->
+    <script src="/assets/plugin/material/material.min.js"></script>
+    <!-- Material Select Field Script -->
+    <script src="/assets/plugin/material/mdl-selectfield.min.js"></script>
+    <!-- Flexslider Plugin JavaScript-->
+    <script src="/assets/plugin/flexslider/jquery.flexslider.min.js"></script>
+    <!-- Owl Carousel Plugin JavaScript-->
+    <script src="/assets/plugin/owl_carousel/owl.carousel.min.js"></script>
+    <!-- Scrolltofixed Plugin JavaScript-->
+    <script src="/assets/plugin/scrolltofixed/jquery-scrolltofixed.min.js"></script>
+    <!-- Magnific Popup Plugin JavaScript-->
+    <script src="/assets/plugin/magnific_popup/jquery.magnific-popup.min.js"></script>
+    <!-- WayPoint Plugin JavaScript-->
+    <script src="/assets/plugin/waypoints/jquery.waypoints.min.js"></script>
+    <!-- CounterUp Plugin JavaScript-->
+    <script src="/assets/plugin/counterup/jquery.counterup.js"></script>
+    <!-- masonry Plugin JavaScript-->
+    <script src="/assets/plugin/masonry_pkgd/masonry.pkgd.min.js"></script>
+    <!-- SmoothScroll Plugin JavaScript-->
+    <script src="/assets/plugin/smoothscroll/smoothscroll.min.js"></script>
+    <!--Custom JavaScript-->
+    <script src="/dist/js/custom.js"></script>
+
+</body>
+</html>
